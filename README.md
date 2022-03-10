@@ -1,6 +1,6 @@
 
 
-In this POC we will be utilizing X terminal windows to monitor the different pieces and work with the containers. A lot of this can be done in one session, however the influx of logs can be overwhelming and hard to trouble shoot.
+In this POC we will be utilizing a number of terminal windows to monitor the different pieces and work with the containers. A lot of this can be done in one session, however the influx of logs can be overwhelming and hard to trouble shoot.
 
 All terminal sessions should be at the root of the repo
 
