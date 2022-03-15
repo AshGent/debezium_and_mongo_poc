@@ -37,15 +37,15 @@ root@mongodb: mongo localhost:27017/inventory <<-EOF
             members: [
                 {
                     _id: 0,
-                    host: 'mongodb01:27017'
+                    host: 'mongodb_01:27017'
                 },
                 {
                     _id: 1,
-                    host: 'mongodb02:27017'
+                    host: 'mongodb_02:27017'
                 },
                 {
                     _id: 2,
-                    host: 'mongodb03:27017'
+                    host: 'mongodb_03:27017'
                 }
             ]});
 EOF

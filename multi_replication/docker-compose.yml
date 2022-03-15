@@ -32,7 +32,7 @@ services:
 
   mongodb_02:
     image: quay.io/debezium/example-mongodb:1.8
-    hostname: mongodb02
+    hostname: mongodb_02
     ports:
      - 27018:27017
     environment:
@@ -41,7 +41,7 @@ services:
 
   mongodb_03:
     image: quay.io/debezium/example-mongodb:1.8
-    hostname: mongodb03
+    hostname: mongodb_03
     ports:
      - 27019:27017
     environment:
